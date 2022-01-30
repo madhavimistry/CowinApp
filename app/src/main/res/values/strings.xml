@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SDP project</string>
+
+    <string-array name="names">
+        <item>--select--</item>
+        <item>Aadhar Card</item>
+        <item>PAN Card</item>
+        <item>Driving Licence</item>
+    </string-array>
+</resources>

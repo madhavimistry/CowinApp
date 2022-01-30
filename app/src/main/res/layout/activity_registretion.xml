@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C95EF"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:visibility="visible"
+    tools:context=".registretionActivity"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="269dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="644dp"
+        android:autoSizeTextType="uniform"
+
+        android:fontFamily="monospace"
+        android:text="Register Here"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:inputType="textPersonName"
+
+        android:textStyle="bold"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textStyle="bold"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textStyle="bold"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/image1"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/image3"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/image5"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Full Name"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="E-mail"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="174dp"
+        android:layout_height="46dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Phone Number"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Password"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="203dp"
+        android:layout_height="46dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Confirm Password"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Gender"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Male"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Female"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-light"
+        android:text="Self Proof"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#673AB7"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:backgroundTint="#FFEB3B"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
